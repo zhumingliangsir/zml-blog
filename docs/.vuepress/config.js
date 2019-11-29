@@ -30,6 +30,14 @@ module.exports = {
         ]
       },
       {
+        text: "前端规范",
+        items: [
+          { text: "HTML规范", link: "/Web-Rules/HTML/" },
+          { text: "CSS规范", link: "/Web-Rules/CSS/" },
+          { text: "JAVASCRIPT规范", link: "/Web-Rules/JAVASCRIPT/" },
+        ]
+      },
+      {
         text: "成神之路",
         items: [
           { text: "Git", link: "/Git/" },
@@ -74,7 +82,8 @@ module.exports = {
       "/Nginx/": ["", "01-Often-use", "02-Base-set", "03-Default-conf", "04-Nginx-conf"],
       "/Node/": ["", "Pm2"],
       "/Other/": ["", "Websocket", "Cmd"],
-      "/Http/": ["",]
+      "/Http/": ["",],
+      "/Web-Rules/": ["","HTML","CSS","JAVASCRIPT"]
     }
   },
   configureWebpack: {

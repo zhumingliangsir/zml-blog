@@ -11,6 +11,6 @@ features:
   - title: 态度
     details: 听百家声，行万里路
   - title: 理想
-    details: 共抒己见，强我中华共抒己见，强我中华
+    details: 共抒己见，强我中华
 footer: MIT Licensed | Copyright © 2019
 ---
