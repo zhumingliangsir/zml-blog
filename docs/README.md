@@ -1,14 +1,16 @@
 ---
 home: true
 heroImage: /study.ico
+# heroText: Hero 主标题,
+# tagline: Hero 副标题,
 actionText: 走你 →
 actionLink: /Resume/
 features:
-  - title: Z.M.L-Man的后宫花园
-    details: 文档
-  - title: blog
-    details: 杂记
-  - title: guide
-    details: 指南
+  - title: 习惯
+    details: 随口一说，随手一写
+  - title: 态度
+    details: 听百家声，行万里路
+  - title: 理想
+    details: 共抒己见，强我中华共抒己见，强我中华
 footer: MIT Licensed | Copyright © 2019
 ---

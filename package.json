@@ -1,5 +1,5 @@
 {
-  "name": "vuedoc",
+  "name": "zml-blog",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+  }
 }
