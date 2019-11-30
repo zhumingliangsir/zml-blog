@@ -1,5 +1,5 @@
 ---
-title: JAVASCRIPT-开发规范
+title: JAVASCRIPT
 sidebarDepth: 5
 ---
 

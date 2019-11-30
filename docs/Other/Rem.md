@@ -1,9 +1,8 @@
 ---
-title: Vue
-sidebar: auto
+title: REM的那些事儿
 ---
 
-## 博主信息
+### Rem
 
 :::warning 注意
 `element.addEventListener(event,fn,useCaption );`
@@ -13,7 +12,7 @@ sidebar: auto
 当值为 `true`，就是捕获传递。
 :::
 
-- 方法 1：
+#### 方法 1：
 
 ```js
 windows.onload = function() {
@@ -26,7 +25,7 @@ windows.onload = function() {
 };
 ```
 
-- 方法 2:
+#### 方法 2:
 
 ```js
 (function(win, doc) {
@@ -44,7 +43,7 @@ windows.onload = function() {
 })(window, document);
 ```
 
-- 方法 3:
+#### 方法 3:
 
 ```js
 window.onload = function() {

@@ -1,5 +1,5 @@
 ---
-title: CSS-开发规范
+title: CSS
 sidebarDepth: 3
 ---
 

@@ -17,7 +17,7 @@ module.exports = {
           { text: "Html", link: "/" },
           { text: "Css", link: "/" },
           { text: "JavaScript", link: "/JavaScript/" },
-          { text: "Http", link: "/Http/" },
+          { text: "Http", link: "/Http/" }
         ]
       },
       {
@@ -32,9 +32,9 @@ module.exports = {
       {
         text: "前端规范",
         items: [
-          { text: "HTML规范", link: "/Web-Rules/HTML/" },
-          { text: "CSS规范", link: "/Web-Rules/CSS/" },
-          { text: "JAVASCRIPT规范", link: "/Web-Rules/JAVASCRIPT/" },
+          { text: "HTML", link: "/Web-Rules/HTML/" },
+          { text: "CSS", link: "/Web-Rules/CSS/" },
+          { text: "JAVASCRIPT", link: "/Web-Rules/JAVASCRIPT/" }
         ]
       },
       {
@@ -43,7 +43,7 @@ module.exports = {
           { text: "Git", link: "/Git/" },
           { text: "Hooks", link: "/Hook/" },
           { text: "Linux", link: "/Linux/" },
-          { text: "Nginx", link: "/Nginx/" },
+          { text: "Nginx", link: "/Nginx/" }
         ]
       },
       { text: "了解更多", link: "/Other/" },
@@ -61,7 +61,7 @@ module.exports = {
         "Browser-identification",
         "Other"
       ],
-      "/Vue/": ["",],
+      "/Vue/": [""],
       "/React-native/": [
         "",
         "01-Environment-build",
@@ -79,17 +79,23 @@ module.exports = {
       "/React/": ["", "Life-cycle"],
       "/Hook/": ["", "Custom-hook"],
       "/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
-      "/Nginx/": ["", "01-Often-use", "02-Base-set", "03-Default-conf", "04-Nginx-conf"],
+      "/Nginx/": [
+        "",
+        "01-Often-use",
+        "02-Base-set",
+        "03-Default-conf",
+        "04-Nginx-conf"
+      ],
       "/Node/": ["", "Pm2"],
-      "/Other/": ["", "Websocket", "Cmd"],
-      "/Http/": ["",],
-      "/Web-Rules/": ["","HTML","CSS","JAVASCRIPT"]
+      "/Other/": ["", "Cmd", "Rem", "Websocket"],
+      "/Http/": [""],
+      "/Web-Rules/": ["", "HTML", "CSS", "JAVASCRIPT"]
     }
   },
   configureWebpack: {
     resolve: {
       alias: {
-        '@alias': '/icon'
+        "@alias": "/icon"
       }
     }
   }
