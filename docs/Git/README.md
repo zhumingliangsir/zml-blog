@@ -9,6 +9,22 @@ sidebar: auto
 
 ## 常用命令
 
+```md
+1、git init 初始化
+2、git add . 将当前提交到 github
+3、git commit -m '第一次提交'
+4、git remote add origin https://github.com/zhumingliangsir/my-mini01.git 关联 github
+5、git push origin master 将本地代码提交到 gihub
+6、git tag tag 名称 将当前操作打一个 tag
+7、git tag 查看所有 tag
+8、git reset --hard d371867d371867 回退到某个 tag
+9、git push --tags 将本地 tag 推送之 github
+10、git status 无提交依然显示(M)
+11、git clone https://github.com/zhumingliangsir/my-mini01.git 下载代码
+12、git checkout 01*数据绑定  
+13、git checkout 02*事件绑定
+```
+
 - 配置
 
 ```
