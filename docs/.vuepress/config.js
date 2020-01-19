@@ -42,6 +42,7 @@ module.exports = {
         text: "成神之路",
         items: [
           { text: "Git", link: "/Git/" },
+          { text: "Github", link: "/Github/" },
           { text: "Hooks", link: "/Hook/" },
           { text: "Linux", link: "/Linux/" },
           { text: "Nginx", link: "/Nginx/" }
@@ -79,6 +80,7 @@ module.exports = {
       ],
       "/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
       "/Webpack/": [""],
+      "/Github/": ["","Upload"],
       "/Hook/": ["", "Custom-hook"],
       "/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
       "/Nginx/": [
@@ -89,7 +91,7 @@ module.exports = {
         "04-Nginx-conf"
       ],
       "/Node/": ["", "Pm2"],
-      "/Other/": ["", "Cmd", "Rem", "Websocket"],
+      "/Other/": ["", "Cmd", "Rem", "Websocket", "SSD", "Usb", "Iframe", "Win10-open-cmd", "Hide-disk"],
       "/Http/": [""],
       "/Web-Rules/": ["", "HTML", "CSS", "JAVASCRIPT"]
     }
