@@ -11,18 +11,18 @@ title: React生命周期
 :::
 
 <div style="text-align:center">
-  <img src="/react-life.png"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-life.png"/>
 </div>
 
 ## 新版常用版
 
 <div style="text-align:center">
-  <img src="/react-new.jpg"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-new.jpg"/>
 </div>
 
 ## 新版完整版
 
 <div style="text-align:center">
-  <img src="/react-new-all.jpg"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-new-all.jpg"/>
 </div>
 >[]()

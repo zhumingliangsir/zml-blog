@@ -328,8 +328,6 @@ module:{        rules: \[            {            
 
 通过五节课的学习，我相信小伙伴已经对 Webpack 有所入门。这节课让我们初步了解插件（plugins\[ \]）的用法。在学习新知识之前，我先回答一个小伙伴提的问题，他的问题就是：“我看到别人写的 CSS 打包配置文件和你写的不一样，是不是有其他的写法？”
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
-
 **loader 的三种写法：**
 
 上节课学习了如何把 CSS 文件进行打包到 JS 当中去，有小伙伴就提问，我看到别人的 CSS 打包的写法和你的写法不太一样，是不是他们写错了，loader 还有几种写法，这里我们就看两种另外的写法。
@@ -374,7 +372,6 @@ const path=\`require\`('path');const uglify = \`require\`('uglifyjs-webpack-plug
 
 有经验的小伙伴其实一眼就可以看出，现在我们的项目结构是有问题的，我们把 index.html 直接放到了 dist 文件夹下，这肯定是不正确的，应该放到我们 src 目录下。但是前期我们为了循序渐进的学习，所以把 index.html 放到了 dist 目录下。这节课我们就学习如何把 html 文件打包到我们的生产路径下。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
 
 **devServer 和 JS 压缩的冲突**
 
@@ -414,7 +411,6 @@ html 文件的打包可以有效的区分开发目录和生产目录，在 webpa
 
 在学习 Webapck 过程中你可能遇到的第一个坑就是 CSS 中的图片处理。很多 webpack 新手都在图片的坑中无法自拔（有的小伙伴在开发环境中是可以找到图片的，但是一打包后就找不到图片了，有的小伙伴是不知道如何正确引入 html 或者 css 中的图片，导致程序出错），我们将用三节课时间搞彻底走出 webpack 图片的坑。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
 
 **图片写入 CSS**
 
@@ -474,7 +470,6 @@ webpack.config.js 文件
 
 通过上节课的学习已经能把小图片打包成 Base64 格式，也对 webpack 对图片的打包有个基本了解。这节课主要学习两个知识：第一个是把 CSS 从 JavasScript 代码中分离出来，第二个是如何处理分离出来后 CSS 中的图片路径不对问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
 
 **CSS 分离:extract-text-webpack-plugin**
 
@@ -528,7 +523,7 @@ var website ={    publicPath:"http://192.168.1.108:1717/"}
 
 在 webpack 中是不喜欢你使用标签来引入图片的，但是我们作前端的人特别热衷于这种写法，国人也为此开发了一个：html-withimg-loader。他可以很好的处理我们在 html 中引入图片的问题。因为是国人开发的，文档都是中文，所以学习起来还是比较简单的。所以在学习新课之前我们先解决两个小伙伴的问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 只有项目安装 webpack，如何打包？ 有的小伙伴在学习视频时，并没有全局安装 webpack，而是使用了项目安装。首先我要说的是，这种做法是 webpack 推崇的，webpack 并不鼓励全局安装 webpack。但是小伙伴看我视频中直接在终端用 webpack 进行打包项目，他使用时会出现不是内部命令或者外部命令。
 
@@ -568,7 +563,6 @@ webpack.config.js
 
 第 05 节中已经讲过 CSS 文件的打包，后来又讲了 CSS 分离。这节我们讲解一下 Less 文件如何打包和分离。Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。也就是说 Less 给我们枯燥单一的样式文件加入了编程机制，这让我们这些前端程序员很受用，所以在工作中大部分程序员都使用了 Leess 开发。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
 
 **打包 Less 文件**
 
@@ -656,7 +650,7 @@ $nav-color: #FFF;#nav {  $width: 100%;  width: $width;  height:30px;  backgr
 
 CSS3 已经成了前端的必会技能，但是你一定为那些属性需要加前缀，那些属性不需要加前缀而头疼。以前我在课程中讲过一个 can i use 的网站，可以查询这些，但是每次都查实在是编码效率太低了。这节课我们就学习一下如何通过 postcss-loader 给 css3 属性自动添加前缀。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **什么是属性前缀**
 
@@ -704,7 +698,6 @@ module.exports = {    plugins: \[        require('autoprefixer')   
 
 像 Bootstrap 这样的框架往往会带有很多 CSS。在项目中通常我们只使用它的一小部分。就算我们自己写 CSS，随着项目的进展，CSS 也会越来越多，有时候需求更改，带来了 DOM 结构的更改，这时候我们可能无暇关注 CSS 样式，造成很多 CSS 的冗余。这节课就学习用 webpack 消除未使用的 CSS。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
 
 **PurifyCSS**
 
@@ -746,7 +739,7 @@ plugins:\[    //new uglify()     new htmlPlugin({        minify:{�
 
 在前端开发中都开始使用 ES6 的语法了，虽然说 webpack3 增加了一些 ES6 的转换支持，但是实际效果不是很好，也可能是本人技术有限，没发挥出真正的功能。所以我在开发中还是喜欢添加 Babel-loader 的，我也查看了一些别人的 webpack 配置也都增加了 babel-loader，所以这节课我们学习一下如何增加 Babel 支持。（此节文章部分内容引用了 zhangwang 大神的文章内容）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 Babel 是什么？ Babel 其实是一个编译 JavaScript 的平台，它的强大之处表现在可以通过便宜帮你达到以下目的：
 
@@ -804,7 +797,7 @@ npm n install --save-dev babel-preset-env
 
 作为一个程序员每天的大部分工作就是调试自己写的程序，那我们使用了 webpack 后，所以代码都打包到了一起，给调试带来了麻烦，但是 webpack 已经为我们充分考虑好了这点，它支持生产 Source Maps 来方便我们的调试。（敲黑板，这节可能偏理论一点。）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 在使用 webpack 时只要通过简单的 devtool 配置，webapck 就会自动给我们生产 source maps 文件，map 文件是一种对应编译文件和源文件的方法，让我们调试起来更简单。
 
@@ -831,7 +824,7 @@ module.exports = {  devtool: 'eval-source-map',  entry:  \_\_dirname + "/app/
 
 一周没有写博客了，这一周都在出差（10 月 9-10 月 12 日），肯定有小伙伴等着看教程了，在这里跟小伙伴说对不起了。这节详细讲讲用 webapck 开发和生产（或者说开发和上线）的那些事。把小伙伴容易迷茫的几个点讲清楚。（从这篇开始强烈建议看视频学习，文章很难表述我的意思）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **依赖不同**
 
@@ -902,7 +895,7 @@ MAC 电脑下需要把 set 换成 export，并且要多加一个&符，具体代
 
 现在的前端开发随着 ES6 的普及已经大面积使用模块化进行开发了，那在 webpack.config.js 配置文件中，如何进行模块化开发那？例如把开发环境的写到一个模块中，把生产环境的写到一个模块中。这节课我们就用一节课的时间学习一下 webpack 模块化配置的技巧。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **JS 中的模块化实现**
 
@@ -942,7 +935,7 @@ entry:entry.path,
 
 在工作中引用第三方的框架是必不可少的，比如引入 JQuery 或者 Vue，但是很多小伙伴一遇到引入第三方的类库时就不知道如何操作了。这节课就学习一下如何优雅并正确的用 webpack 引入第三方库。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **引入 JQuery**
 
@@ -990,7 +983,7 @@ plugins:\[    new webpack.ProvidePlugin({        \$:"jquery"    })\
 
 初级开发阶段，使用 webpack-dev-server 就可以充当服务器和完成打包任务，但时随着你项目的进一步完成，可能需要前后台联调或者两个前端合并代码时，就需要一个公共的服务器了。这时候我们每次保存后手动打包显然效率太低，我们希望的场景是代码发生变化后，只要保存，webpack 自动为我们进行打包。这个工具就是 watch，这节课我们把 wacht 完全学会，你会发现在开发中更加的得心应手。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **watch 的配置**
 
@@ -1020,7 +1013,7 @@ const webpack = require('webpack');
 
 作为一个程序员，无论是写什么程序都 i 要有一颗不断优化的心。webpack 在优化这条路上，也为我们作了很多配置，这节课我们就看看工作中常用的 webpack 优化黑技能。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **ProvidePlugin 和 import**
 
@@ -1088,7 +1081,7 @@ new webpack.optimize.CommonsChunkPlugin({    //name 对应入口文件中的�
 
 工作中会有一些已经存在但在项目中没有引用的图片资源或者其他静态资源（比如设计图、开发文档），这些静态资源有可能是文档，也有可能是一些额外的图片。项目组长会要求你打包时保留这些静态资源，直接打包到制定文件夹。其实打包这些资源只需要用到 copy-webpack-plugin。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 使用 copy-webpack-plugin copy-webpack-plugin 就是专门为我们作静态资源转移的插件，不过它不同上两节使用的插件，它是需要安装的。
 
@@ -1477,7 +1470,7 @@ module:{        rules: \[            {            
 
 通过五节课的学习，我相信小伙伴已经对 Webpack 有所入门。这节课让我们初步了解插件（plugins\[ \]）的用法。在学习新知识之前，我先回答一个小伙伴提的问题，他的问题就是：“我看到别人写的 CSS 打包配置文件和你写的不一样，是不是有其他的写法？”
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **loader 的三种写法：**
 
@@ -1523,7 +1516,7 @@ const path=\`require\`('path');const uglify = \`require\`('uglifyjs-webpack-plug
 
 有经验的小伙伴其实一眼就可以看出，现在我们的项目结构是有问题的，我们把 index.html 直接放到了 dist 文件夹下，这肯定是不正确的，应该放到我们 src 目录下。但是前期我们为了循序渐进的学习，所以把 index.html 放到了 dist 目录下。这节课我们就学习如何把 html 文件打包到我们的生产路径下。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **devServer 和 JS 压缩的冲突**
 
@@ -1563,7 +1556,7 @@ html 文件的打包可以有效的区分开发目录和生产目录，在 webpa
 
 在学习 Webapck 过程中你可能遇到的第一个坑就是 CSS 中的图片处理。很多 webpack 新手都在图片的坑中无法自拔（有的小伙伴在开发环境中是可以找到图片的，但是一打包后就找不到图片了，有的小伙伴是不知道如何正确引入 html 或者 css 中的图片，导致程序出错），我们将用三节课时间搞彻底走出 webpack 图片的坑。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **图片写入 CSS**
 
@@ -1623,7 +1616,7 @@ webpack.config.js 文件
 
 通过上节课的学习已经能把小图片打包成 Base64 格式，也对 webpack 对图片的打包有个基本了解。这节课主要学习两个知识：第一个是把 CSS 从 JavasScript 代码中分离出来，第二个是如何处理分离出来后 CSS 中的图片路径不对问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **CSS 分离:extract-text-webpack-plugin**
 
@@ -1677,7 +1670,7 @@ var website ={    publicPath:"http://192.168.1.108:1717/"}
 
 在 webpack 中是不喜欢你使用标签来引入图片的，但是我们作前端的人特别热衷于这种写法，国人也为此开发了一个：html-withimg-loader。他可以很好的处理我们在 html 中引入图片的问题。因为是国人开发的，文档都是中文，所以学习起来还是比较简单的。所以在学习新课之前我们先解决两个小伙伴的问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 只有项目安装 webpack，如何打包？ 有的小伙伴在学习视频时，并没有全局安装 webpack，而是使用了项目安装。首先我要说的是，这种做法是 webpack 推崇的，webpack 并不鼓励全局安装 webpack。但是小伙伴看我视频中直接在终端用 webpack 进行打包项目，他使用时会出现不是内部命令或者外部命令。
 
@@ -1717,7 +1710,7 @@ webpack.config.js
 
 第 05 节中已经讲过 CSS 文件的打包，后来又讲了 CSS 分离。这节我们讲解一下 Less 文件如何打包和分离。Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。也就是说 Less 给我们枯燥单一的样式文件加入了编程机制，这让我们这些前端程序员很受用，所以在工作中大部分程序员都使用了 Leess 开发。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **打包 Less 文件**
 
@@ -1805,7 +1798,7 @@ $nav-color: #FFF;#nav {  $width: 100%;  width: $width;  height:30px;  backgr
 
 CSS3 已经成了前端的必会技能，但是你一定为那些属性需要加前缀，那些属性不需要加前缀而头疼。以前我在课程中讲过一个 can i use 的网站，可以查询这些，但是每次都查实在是编码效率太低了。这节课我们就学习一下如何通过 postcss-loader 给 css3 属性自动添加前缀。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **什么是属性前缀**
 
@@ -1853,7 +1846,7 @@ module.exports = {    plugins: \[        require('autoprefixer')   
 
 像 Bootstrap 这样的框架往往会带有很多 CSS。在项目中通常我们只使用它的一小部分。就算我们自己写 CSS，随着项目的进展，CSS 也会越来越多，有时候需求更改，带来了 DOM 结构的更改，这时候我们可能无暇关注 CSS 样式，造成很多 CSS 的冗余。这节课就学习用 webpack 消除未使用的 CSS。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **PurifyCSS**
 
@@ -1895,7 +1888,7 @@ plugins:\[    //new uglify()     new htmlPlugin({        minify:{�
 
 在前端开发中都开始使用 ES6 的语法了，虽然说 webpack3 增加了一些 ES6 的转换支持，但是实际效果不是很好，也可能是本人技术有限，没发挥出真正的功能。所以我在开发中还是喜欢添加 Babel-loader 的，我也查看了一些别人的 webpack 配置也都增加了 babel-loader，所以这节课我们学习一下如何增加 Babel 支持。（此节文章部分内容引用了 zhangwang 大神的文章内容）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 Babel 是什么？ Babel 其实是一个编译 JavaScript 的平台，它的强大之处表现在可以通过便宜帮你达到以下目的：
 
@@ -1953,7 +1946,7 @@ npm n install --save-dev babel-preset-env
 
 作为一个程序员每天的大部分工作就是调试自己写的程序，那我们使用了 webpack 后，所以代码都打包到了一起，给调试带来了麻烦，但是 webpack 已经为我们充分考虑好了这点，它支持生产 Source Maps 来方便我们的调试。（敲黑板，这节可能偏理论一点。）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 在使用 webpack 时只要通过简单的 devtool 配置，webapck 就会自动给我们生产 source maps 文件，map 文件是一种对应编译文件和源文件的方法，让我们调试起来更简单。
 
@@ -1980,7 +1973,7 @@ module.exports = {  devtool: 'eval-source-map',  entry:  \_\_dirname + "/app/
 
 一周没有写博客了，这一周都在出差（10 月 9-10 月 12 日），肯定有小伙伴等着看教程了，在这里跟小伙伴说对不起了。这节详细讲讲用 webapck 开发和生产（或者说开发和上线）的那些事。把小伙伴容易迷茫的几个点讲清楚。（从这篇开始强烈建议看视频学习，文章很难表述我的意思）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **依赖不同**
 
@@ -2051,7 +2044,7 @@ MAC 电脑下需要把 set 换成 export，并且要多加一个&符，具体代
 
 现在的前端开发随着 ES6 的普及已经大面积使用模块化进行开发了，那在 webpack.config.js 配置文件中，如何进行模块化开发那？例如把开发环境的写到一个模块中，把生产环境的写到一个模块中。这节课我们就用一节课的时间学习一下 webpack 模块化配置的技巧。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **JS 中的模块化实现**
 
@@ -2091,7 +2084,7 @@ entry:entry.path,
 
 在工作中引用第三方的框架是必不可少的，比如引入 JQuery 或者 Vue，但是很多小伙伴一遇到引入第三方的类库时就不知道如何操作了。这节课就学习一下如何优雅并正确的用 webpack 引入第三方库。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **引入 JQuery**
 
@@ -2139,7 +2132,7 @@ plugins:\[    new webpack.ProvidePlugin({        \$:"jquery"    })\
 
 初级开发阶段，使用 webpack-dev-server 就可以充当服务器和完成打包任务，但时随着你项目的进一步完成，可能需要前后台联调或者两个前端合并代码时，就需要一个公共的服务器了。这时候我们每次保存后手动打包显然效率太低，我们希望的场景是代码发生变化后，只要保存，webpack 自动为我们进行打包。这个工具就是 watch，这节课我们把 wacht 完全学会，你会发现在开发中更加的得心应手。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **watch 的配置**
 
@@ -2169,7 +2162,7 @@ const webpack = require('webpack');
 
 作为一个程序员，无论是写什么程序都 i 要有一颗不断优化的心。webpack 在优化这条路上，也为我们作了很多配置，这节课我们就看看工作中常用的 webpack 优化黑技能。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **ProvidePlugin 和 import**
 
@@ -2237,7 +2230,7 @@ new webpack.optimize.CommonsChunkPlugin({    //name 对应入口文件中的�
 
 工作中会有一些已经存在但在项目中没有引用的图片资源或者其他静态资源（比如设计图、开发文档），这些静态资源有可能是文档，也有可能是一些额外的图片。项目组长会要求你打包时保留这些静态资源，直接打包到制定文件夹。其实打包这些资源只需要用到 copy-webpack-plugin。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 使用 copy-webpack-plugin copy-webpack-plugin 就是专门为我们作静态资源转移的插件，不过它不同上两节使用的插件，它是需要安装的。
 
@@ -2626,7 +2619,7 @@ module:{        rules: \[            {            
 
 通过五节课的学习，我相信小伙伴已经对 Webpack 有所入门。这节课让我们初步了解插件（plugins\[ \]）的用法。在学习新知识之前，我先回答一个小伙伴提的问题，他的问题就是：“我看到别人写的 CSS 打包配置文件和你写的不一样，是不是有其他的写法？”
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **loader 的三种写法：**
 
@@ -2672,7 +2665,7 @@ const path=\`require\`('path');const uglify = \`require\`('uglifyjs-webpack-plug
 
 有经验的小伙伴其实一眼就可以看出，现在我们的项目结构是有问题的，我们把 index.html 直接放到了 dist 文件夹下，这肯定是不正确的，应该放到我们 src 目录下。但是前期我们为了循序渐进的学习，所以把 index.html 放到了 dist 目录下。这节课我们就学习如何把 html 文件打包到我们的生产路径下。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **devServer 和 JS 压缩的冲突**
 
@@ -2712,7 +2705,7 @@ html 文件的打包可以有效的区分开发目录和生产目录，在 webpa
 
 在学习 Webapck 过程中你可能遇到的第一个坑就是 CSS 中的图片处理。很多 webpack 新手都在图片的坑中无法自拔（有的小伙伴在开发环境中是可以找到图片的，但是一打包后就找不到图片了，有的小伙伴是不知道如何正确引入 html 或者 css 中的图片，导致程序出错），我们将用三节课时间搞彻底走出 webpack 图片的坑。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **图片写入 CSS**
 
@@ -2772,7 +2765,7 @@ webpack.config.js 文件
 
 通过上节课的学习已经能把小图片打包成 Base64 格式，也对 webpack 对图片的打包有个基本了解。这节课主要学习两个知识：第一个是把 CSS 从 JavasScript 代码中分离出来，第二个是如何处理分离出来后 CSS 中的图片路径不对问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **CSS 分离:extract-text-webpack-plugin**
 
@@ -2826,7 +2819,7 @@ var website ={    publicPath:"http://192.168.1.108:1717/"}
 
 在 webpack 中是不喜欢你使用标签来引入图片的，但是我们作前端的人特别热衷于这种写法，国人也为此开发了一个：html-withimg-loader。他可以很好的处理我们在 html 中引入图片的问题。因为是国人开发的，文档都是中文，所以学习起来还是比较简单的。所以在学习新课之前我们先解决两个小伙伴的问题。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 只有项目安装 webpack，如何打包？ 有的小伙伴在学习视频时，并没有全局安装 webpack，而是使用了项目安装。首先我要说的是，这种做法是 webpack 推崇的，webpack 并不鼓励全局安装 webpack。但是小伙伴看我视频中直接在终端用 webpack 进行打包项目，他使用时会出现不是内部命令或者外部命令。
 
@@ -2866,7 +2859,7 @@ webpack.config.js
 
 第 05 节中已经讲过 CSS 文件的打包，后来又讲了 CSS 分离。这节我们讲解一下 Less 文件如何打包和分离。Less 是一门 CSS 预处理语言，它扩展了 CSS 语言，增加了变量、Mixin、函数等特性，使 CSS 更易维护和扩展。也就是说 Less 给我们枯燥单一的样式文件加入了编程机制，这让我们这些前端程序员很受用，所以在工作中大部分程序员都使用了 Leess 开发。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **打包 Less 文件**
 
@@ -2954,7 +2947,7 @@ $nav-color: #FFF;#nav {  $width: 100%;  width: $width;  height:30px;  backgr
 
 CSS3 已经成了前端的必会技能，但是你一定为那些属性需要加前缀，那些属性不需要加前缀而头疼。以前我在课程中讲过一个 can i use 的网站，可以查询这些，但是每次都查实在是编码效率太低了。这节课我们就学习一下如何通过 postcss-loader 给 css3 属性自动添加前缀。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **什么是属性前缀**
 
@@ -3002,7 +2995,7 @@ module.exports = {    plugins: \[        require('autoprefixer')   
 
 像 Bootstrap 这样的框架往往会带有很多 CSS。在项目中通常我们只使用它的一小部分。就算我们自己写 CSS，随着项目的进展，CSS 也会越来越多，有时候需求更改，带来了 DOM 结构的更改，这时候我们可能无暇关注 CSS 样式，造成很多 CSS 的冗余。这节课就学习用 webpack 消除未使用的 CSS。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **PurifyCSS**
 
@@ -3044,7 +3037,7 @@ plugins:\[    //new uglify()     new htmlPlugin({        minify:{�
 
 在前端开发中都开始使用 ES6 的语法了，虽然说 webpack3 增加了一些 ES6 的转换支持，但是实际效果不是很好，也可能是本人技术有限，没发挥出真正的功能。所以我在开发中还是喜欢添加 Babel-loader 的，我也查看了一些别人的 webpack 配置也都增加了 babel-loader，所以这节课我们学习一下如何增加 Babel 支持。（此节文章部分内容引用了 zhangwang 大神的文章内容）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 Babel 是什么？ Babel 其实是一个编译 JavaScript 的平台，它的强大之处表现在可以通过便宜帮你达到以下目的：
 
@@ -3102,7 +3095,7 @@ npm n install --save-dev babel-preset-env
 
 作为一个程序员每天的大部分工作就是调试自己写的程序，那我们使用了 webpack 后，所以代码都打包到了一起，给调试带来了麻烦，但是 webpack 已经为我们充分考虑好了这点，它支持生产 Source Maps 来方便我们的调试。（敲黑板，这节可能偏理论一点。）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 在使用 webpack 时只要通过简单的 devtool 配置，webapck 就会自动给我们生产 source maps 文件，map 文件是一种对应编译文件和源文件的方法，让我们调试起来更简单。
 
@@ -3129,7 +3122,7 @@ module.exports = {  devtool: 'eval-source-map',  entry:  \_\_dirname + "/app/
 
 一周没有写博客了，这一周都在出差（10 月 9-10 月 12 日），肯定有小伙伴等着看教程了，在这里跟小伙伴说对不起了。这节详细讲讲用 webapck 开发和生产（或者说开发和上线）的那些事。把小伙伴容易迷茫的几个点讲清楚。（从这篇开始强烈建议看视频学习，文章很难表述我的意思）
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **依赖不同**
 
@@ -3200,7 +3193,7 @@ MAC 电脑下需要把 set 换成 export，并且要多加一个&符，具体代
 
 现在的前端开发随着 ES6 的普及已经大面积使用模块化进行开发了，那在 webpack.config.js 配置文件中，如何进行模块化开发那？例如把开发环境的写到一个模块中，把生产环境的写到一个模块中。这节课我们就用一节课的时间学习一下 webpack 模块化配置的技巧。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **JS 中的模块化实现**
 
@@ -3240,7 +3233,7 @@ entry:entry.path,
 
 在工作中引用第三方的框架是必不可少的，比如引入 JQuery 或者 Vue，但是很多小伙伴一遇到引入第三方的类库时就不知道如何操作了。这节课就学习一下如何优雅并正确的用 webpack 引入第三方库。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **引入 JQuery**
 
@@ -3288,7 +3281,7 @@ plugins:\[    new webpack.ProvidePlugin({        \$:"jquery"    })\
 
 初级开发阶段，使用 webpack-dev-server 就可以充当服务器和完成打包任务，但时随着你项目的进一步完成，可能需要前后台联调或者两个前端合并代码时，就需要一个公共的服务器了。这时候我们每次保存后手动打包显然效率太低，我们希望的场景是代码发生变化后，只要保存，webpack 自动为我们进行打包。这个工具就是 watch，这节课我们把 wacht 完全学会，你会发现在开发中更加的得心应手。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **watch 的配置**
 
@@ -3318,7 +3311,7 @@ const webpack = require('webpack');
 
 作为一个程序员，无论是写什么程序都 i 要有一颗不断优化的心。webpack 在优化这条路上，也为我们作了很多配置，这节课我们就看看工作中常用的 webpack 优化黑技能。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 **ProvidePlugin 和 import**
 
@@ -3386,7 +3379,7 @@ new webpack.optimize.CommonsChunkPlugin({    //name 对应入口文件中的�
 
 工作中会有一些已经存在但在项目中没有引用的图片资源或者其他静态资源（比如设计图、开发文档），这些静态资源有可能是文档，也有可能是一些额外的图片。项目组长会要求你打包时保留这些静态资源，直接打包到制定文件夹。其实打包这些资源只需要用到 copy-webpack-plugin。
 
-视频教程购买地址：[https://www.edurt.com/my/course/167](https://www.edurt.com/my/course/167)
+
 
 使用 copy-webpack-plugin copy-webpack-plugin 就是专门为我们作静态资源转移的插件，不过它不同上两节使用的插件，它是需要安装的。
 

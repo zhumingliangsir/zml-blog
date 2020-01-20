@@ -5,7 +5,7 @@ title: 项目调试
 ### 1、查看连接设备：
 
 <div style="text-align: center;">
-  <img src="./images/check-devices.png"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/check-devices.png"/>
 </div>
 
 ### 2、打开调试面板：
@@ -13,7 +13,7 @@ title: 项目调试
 - 模拟器 ctrl+m,真机：摇动手机
 
 <div style="text-align: center;margin-top:20px">
-  <img src="./images/debugList.png"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/debugList.png"/>
 </div>
 
 ### 功能描述
@@ -23,10 +23,10 @@ title: 项目调试
   - 注意：只有修改 JavaScript 文件时，刷新功能才起作用。如果新增了文件或者修改了 Native 代码，就需要使用 Xcode 重新编译应用了。
 
 - 2、Debug JS Remotely：点击它，会弹出 Chrome 的一个标签，如下：
-  <div style="text-align: center;margin-top:20px">
-    <img src="./images/localhost.png"/>
-  </div> 
-  - 注意：这里的 Status：Debugger session #0 active 就表示程序与该页面成功建立连接了，打开控制台既可看见在组件中输出的日志，也可以打断点进行深入调试
+    <div style="text-align: center;margin-top:20px">
+      <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/localhost.png"/>
+    </div> 
+    - 注意：这里的 Status：Debugger session #0 active 就表示程序与该页面成功建立连接了，打开控制台既可看见在组件中输出的日志，也可以打断点进行深入调试
 - 3、Enable Live Reload：程序协助开发者，进行 reload
 
 - 4、Enable Hot Reloading：
@@ -36,23 +36,23 @@ title: 项目调试
   开启监视器，可以查看元素 CSS 信息，网络请求等
 
 <div style="text-align: center;margin-top:20px">
-  <img src="./images/debug-style.png" />
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/debug-style.png" />
 </div>
 
 <div style="text-align: center;margin-top:20px">
-  <img src="./images/debug-internet.png" />
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/debug-internet.png" />
 </div>
 
 - 6、Show Perf Monitor：
   该功能启用后会显示一个监控窗口，显示出实时的内存占用、UI 和 JavaScript 的 FPS 等信息。帮助我们调试性能问题
 
-    <div style="text-align: center;margin-top:20px"><img src="./images/monitor1.png" /></div>
+    <div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/monitor1.png" /></div>
 
-    <div style="text-align: center;margin-top:20px"><img src="./images/monitor2.png" /></div>
+    <div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/monitor2.png" /></div>
 
 - 7、Dev Settings：修改端口等
-    <div style="text-align: center;margin-top:20px"><img src="./images/port.png" /></div>
-    <div style="text-align: center;margin-top:20px"><img src="./images/port2.png" /></div>
+    <div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/port.png" /></div>
+    <div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/port2.png" /></div>
   - 7.1  js dev mode
   - 使用dev=true加载javascript捆绑包以简化调试器。禁用以进行性能测试。重新加载以使更改生效
   - 7.2  js minify： js压缩，类似于vue中minify的loader

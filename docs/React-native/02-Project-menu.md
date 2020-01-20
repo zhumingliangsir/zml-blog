@@ -5,7 +5,7 @@ title: 结构分析
 ## 脚手架截图
 
 <div style="text-align: center;">
-  <img src="./images/project-menu.png"/>
+  <img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/project-menu.png"/>
 </div>
 
 #### tests：测试文件夹，执行命令 “npm test”会调用此文件夹，在文件夹中需要引入待测试文件。

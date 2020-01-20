@@ -30,7 +30,7 @@ keytool -genkey -v -keystore br-loan-app-release-key.keystore -alias br-loan-app
 
 ### 3、根据提示输入口令
 
-<div style="text-align: center;margin-top:20px"><img src="./images/setPwd.png" /></div>
+<div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/setPwd.png" /></div>
 
 - <a>注意：记住 密钥库口令！记住 密钥库口令！记住 密钥库口令！---------非常重要</a>
 
@@ -51,7 +51,7 @@ MYAPP_RELEASE_KEY_PASSWORD= you setting psd ******
 
 - 好吧，让你看看我写的吧
 
-<div style="text-align: center;margin-top:20px"><img src="./images/keystore.png" /></div>
+<div style="text-align: center;margin-top:20px"><img src="https://zml-blog-images.oss-cn-beijing.aliyuncs.com/react-native/keystore.png" /></div>
 
 ### 6、将签名项目的 gradle 配置中
 
