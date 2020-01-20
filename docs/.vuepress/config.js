@@ -17,6 +17,7 @@ module.exports = {
           { text: "Html", link: "/" },
           { text: "Css", link: "/" },
           { text: "JavaScript", link: "/JavaScript/" },
+          { text: "TypeScript", link: "/TypeScript/" },
           { text: "Http", link: "/Http/" }
         ]
       },
@@ -63,6 +64,10 @@ module.exports = {
         "Browser-identification",
         "Other"
       ],
+      "/TypeScript/": [
+        "",
+        "Vue-typescript"
+      ],
       "/Vue/": [""],
       "/React-native/": [
         "",
@@ -80,7 +85,7 @@ module.exports = {
       ],
       "/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
       "/Webpack/": [""],
-      "/Github/": ["","Upload"],
+      "/Github/": ["", "Upload"],
       "/Hook/": ["", "Custom-hook"],
       "/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
       "/Nginx/": [
