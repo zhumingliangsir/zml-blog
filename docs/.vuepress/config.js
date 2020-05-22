@@ -65,6 +65,7 @@ module.exports = {
       ],
       "/Web/Base/TypeScript/": [
         "",
+        "1-base",
         "Vue-typescript"
       ],
       "/Web/Base/Http/": [""],
