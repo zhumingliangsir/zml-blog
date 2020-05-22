@@ -4,7 +4,7 @@ heroImage: /study.ico
 # heroText: Hero 主标题,
 # tagline: Hero 副标题,
 actionText: 走你 →
-actionLink: /Resume/
+actionLink: /AboutMe/
 features:
   - title: 习惯
     details: 随口一说，随手一写
@@ -12,5 +12,5 @@ features:
     details: 听百家声，行万里路
   - title: 理想
     details: 共抒己见，强我中华
-footer: MIT Licensed | Copyright © 2019
+footer: MIT Licensed | Copyright © 2020
 ---

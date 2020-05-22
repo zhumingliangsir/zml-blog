@@ -14,46 +14,45 @@ module.exports = {
       {
         text: "前端基础",
         items: [
-          { text: "Html", link: "/" },
-          { text: "Css", link: "/" },
-          { text: "JavaScript", link: "/JavaScript/" },
-          { text: "TypeScript", link: "/TypeScript/" },
-          { text: "Http", link: "/Http/" }
+          { text: "JavaScript", link: "/Web/Base/JavaScript/" },
+          { text: "TypeScript", link: "/Web/Base/TypeScript/" },
+          { text: "Http", link: "/Web/Base/Http/" }
         ]
       },
       {
         text: "前端框架",
         items: [
-          { text: "Vue", link: "/Vue/" },
-          { text: "React", link: "/React/" },
-          { text: "React-native", link: "/React-native/" },
-          { text: "Webpack", link: "/Webpack/" },
-          { text: "Node", link: "/Node/" }
+          { text: "Vue", link: "/Web/Frame/Vue/" },
+          { text: "React", link: "/Web/Frame/React/" },
+          { text: "React-native", link: "/Web/Frame/React-native/" },
+          { text: "Webpack", link: "/Web/Frame/Webpack/" }
         ]
       },
       {
         text: "前端规范",
         items: [
-          { text: "HTML", link: "/Web-Rules/HTML/" },
-          { text: "CSS", link: "/Web-Rules/CSS/" },
-          { text: "JAVASCRIPT", link: "/Web-Rules/JAVASCRIPT/" }
+          { text: "HTML", link: "/Web/Rules/HTML/" },
+          { text: "CSS", link: "/Web/Rules/CSS/" },
+          { text: "JAVASCRIPT", link: "/Web/Rules/JAVASCRIPT/" }
         ]
       },
       {
         text: "成神之路",
         items: [
-          { text: "Git", link: "/Git/" },
-          { text: "Github", link: "/Github/" },
-          { text: "Hooks", link: "/Hook/" },
-          { text: "Linux", link: "/Linux/" },
-          { text: "Nginx", link: "/Nginx/" }
+          { text: "Git", link: "/Web/God/Git/" },
+          { text: "Github", link: "/Web/God/Github/" },
+          { text: "Hooks", link: "/Web/God/Hook/" },
+          { text: "Linux", link: "/Web/God/Linux/" },
+          { text: "Nginx", link: "/Web/God/Nginx/" },
+          { text: "Node", link: "/Web/God/Node/" }
         ]
       },
       { text: "了解更多", link: "/Other/" },
-      { text: "关于博主", link: "/Resume/" }
+      { text: "关于博主", link: "/AboutMe/" }
     ],
     sidebar: {
-      "/JavaScript/": [
+      // 前端基础
+      "/Web/Base/JavaScript/": [
         "",
         "Traversing",
         "String-method",
@@ -64,12 +63,15 @@ module.exports = {
         "Browser-identification",
         "Other"
       ],
-      "/TypeScript/": [
+      "/Web/Base/TypeScript/": [
         "",
         "Vue-typescript"
       ],
-      "/Vue/": [""],
-      "/React-native/": [
+      "/Web/Base/Http/": [""],
+      // 前端框架
+      "/Web/Frame/Vue/": [""],
+      "/Web/Frame/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
+      "/Web/Frame/React-native/": [
         "",
         "01-Environment-build",
         "02-Project-menu",
@@ -83,22 +85,25 @@ module.exports = {
         "DrawerNavigator",
         "App-store-ios"
       ],
-      "/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
-      "/Webpack/": [""],
-      "/Github/": ["", "Upload"],
-      "/Hook/": ["", "Custom-hook"],
-      "/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
-      "/Nginx/": [
+      "/Web/Frame/Webpack/": [""],
+
+      // 前端规范
+      "/Web/Rules/": ["", "HTML", "CSS", "JAVASCRIPT"],
+
+      // 成神之路
+      "/Web/God/Github/": ["", "Upload"],
+      "/Web/God/Hook/": ["", "Custom-hook"],
+      "/Web/God/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
+      "/Web/God/Nginx/": [
         "",
         "01-Often-use",
         "02-Base-set",
         "03-Default-conf",
         "04-Nginx-conf"
       ],
-      "/Node/": ["", "Pm2"],
+      "/Web/God/Node/": ["", "Pm2"],
+      // 了解更多
       "/Other/": ["", "Cmd", "Rem", "Websocket", "SSD", "Usb", "Iframe", "Win10-open-cmd", "Hide-disk"],
-      "/Http/": [""],
-      "/Web-Rules/": ["", "HTML", "CSS", "JAVASCRIPT"]
     }
   },
   configureWebpack: {

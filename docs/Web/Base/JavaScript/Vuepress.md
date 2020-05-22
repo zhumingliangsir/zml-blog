@@ -92,7 +92,7 @@ module.exports = {
           { text: 'Linux', link: '/Linux/' }
         ]
       },
-      { text: 'Resume', link: '/Resume/' }
+      { text: 'AboutMe', link: '/AboutMe/' }
     ],
     sidebar: {
       //对应每个文件夹下面子文件,新增文件将name加入数组中

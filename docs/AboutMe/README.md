@@ -1,5 +1,5 @@
 ---
-title: Personal Resume
+title: 关于博主
 sidebar: auto
 ---
 
