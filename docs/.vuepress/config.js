@@ -68,6 +68,7 @@ module.exports = {
         "1-base",
         "3-interface",
         "6.fanxing",
+        "decorator",
         "Vue-typescript"
       ],
       "/Web/Base/Http/": [""],
