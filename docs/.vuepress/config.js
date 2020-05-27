@@ -67,6 +67,7 @@ module.exports = {
         "",
         "1-base",
         "3-interface",
+        "4-class",
         "6.fanxing",
         "decorator",
         "Vue-typescript"
