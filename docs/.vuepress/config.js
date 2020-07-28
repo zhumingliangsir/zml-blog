@@ -44,7 +44,8 @@ module.exports = {
           { text: "Hooks", link: "/Web/God/Hook/" },
           { text: "Linux", link: "/Web/God/Linux/" },
           { text: "Nginx", link: "/Web/God/Nginx/" },
-          { text: "Node", link: "/Web/God/Node/" }
+          { text: "Node", link: "/Web/God/Node/" },
+          { text: "Markdown", link: "/Web/God/Markdown/" }
         ]
       },
       { text: "了解更多", link: "/Other/" },
