@@ -110,7 +110,7 @@ module.exports = {
       ],
       "/Web/God/Node/": ["", "Pm2"],
       // 设计模式
-      "/Model/": ["", "2.oop", "1.principle", "3.factory", "4.builder", "5.sigle", "6.decorator", "7.combination", "8.watcher", "9.strategy", "10.chain", "11.delegate", "12.waiter", "13.MVC"],
+      "/Model/": ["", "2.oop", "1.principle", "3.factory", "4.builder", "5.sigle", "6.decorator", "7.combination", "8.watcher", "9.strategy", "10.chain", "11.delegate", "12.waiter", "13.MVC", "14.appearance", "15.prototype"],
       // 了解更多
       "/Other/": ["", "Cmd", "Rem", "Websocket", "SSD", "Usb", "Iframe", "Win10-open-cmd", "Hide-disk"],
     }
