@@ -62,3 +62,8 @@ JS 中的设计模式可分为以下五种
 **说明**：架构型设计模式是一类框架结构，通过提供一些子系统，指定他们的职责，并将他们条理清晰的组织在一起
 
 **包含**：`MVC、MVP、MVVP`。。。。
+
+
+参考书籍[JavaScript设计模式 张容铭][1]。
+
+[1]: https://zml-blog-images.oss-cn-beijing.aliyuncs.com/model/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%20%E5%BC%A0%E5%AE%B9%E9%93%AD.pdf
