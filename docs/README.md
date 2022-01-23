@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /study.ico
+heroImage: /panda-waving.png
 # heroText: Hero 主标题,
 # tagline: Hero 副标题,
 actionText: 走你 →
@@ -12,5 +12,5 @@ features:
     details: 听百家声，行万里路
   - title: 理想
     details: 共抒己见，强我中华
-footer: MIT Licensed | Copyright © 2020
+footer: MIT Licensed | Copyright © 2022
 ---
