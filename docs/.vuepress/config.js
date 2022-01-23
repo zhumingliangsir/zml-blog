@@ -1,7 +1,7 @@
 module.exports = {
   title: "Z.M.L-Man的后宫花园",
   // description: "纯属学习之用，如有侵权，请联系博主！",
-  description: "^_^敬畏代码，不忘初心，追求希望和灵感^_^",
+  description: "敬畏代码，不忘初心，追求希望和灵感",
   // 注入到当前页面的 HTML <head> 中的标签
   head: [
     ["link", { rel: "icon", href: "/study.ico" }] // 增加一个自定义的 favicon(网页标签的图标)
