@@ -12,5 +12,5 @@ features:
     details: 听百家声，行万里路
   - title: 理想
     details: 共抒己见，强我中华
-footer: MIT Licensed | Copyright © 2022
+footer: 京ICP备2022007086号-1
 ---
