@@ -12,5 +12,8 @@ features:
     details: 听百家声，行万里路
   - title: 理想
     details: 共抒己见，强我中华
-footer: 京ICP备2022007086号-1
+# 自定义footer 按照工信部要求进行整改
 ---
+::: slot footer
+[京ICP备2022007086号-1](https://beian.miit.gov.cn)
+:::
