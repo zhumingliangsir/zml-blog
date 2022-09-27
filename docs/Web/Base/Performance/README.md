@@ -3,6 +3,11 @@ title: 性能监控
 sidebarDepth: 2
 ---
 
+## 0 网站使用体验三大核心指标
+<div style="text-align: center;">
+    <img src="/web_vitals.png"/>
+</div>
+
 ## 1 前言
 
 - 前端监控是开发人员用来跟踪和维护应用程序表现层的运行状况的过程和工具。
