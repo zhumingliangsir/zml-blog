@@ -13,11 +13,19 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: "前端基础",
+        text: "前端规范",
+        items: [
+          { text: "HTML", link: "/Web/Rules/HTML/" },
+          { text: "CSS", link: "/Web/Rules/CSS/" },
+          { text: "JAVASCRIPT", link: "/Web/Rules/JAVASCRIPT/" }
+        ]
+      },
+      {
+        text: "前端社区",
         items: [
           { text: "JavaScript", link: "/Web/Base/JavaScript/" },
           { text: "TypeScript", link: "/Web/Base/TypeScript/" },
-          { text: "Http", link: "/Web/Base/Http/" }
+          { text: "Performance", link: "/Web/Base/Performance/" },
         ]
       },
       {
@@ -30,19 +38,10 @@ module.exports = {
         ]
       },
       {
-        text: "前端规范",
-        items: [
-          { text: "HTML", link: "/Web/Rules/HTML/" },
-          { text: "CSS", link: "/Web/Rules/CSS/" },
-          { text: "JAVASCRIPT", link: "/Web/Rules/JAVASCRIPT/" }
-        ]
-      },
-      {
         text: "成神之路",
         items: [
           { text: "Git", link: "/Web/God/Git/" },
           { text: "Github", link: "/Web/God/Github/" },
-          { text: "Hooks", link: "/Web/God/Hook/" },
           { text: "Linux", link: "/Web/God/Linux/" },
           { text: "Nginx", link: "/Web/God/Nginx/" },
           { text: "Node", link: "/Web/God/Node/" },
@@ -54,7 +53,9 @@ module.exports = {
       { text: "关于博主", link: "/AboutMe/" }
     ],
     sidebar: {
-      // 前端基础
+      // 前端规范
+      "/Web/Rules/": ["", "HTML", "CSS", "JAVASCRIPT"],
+      // 前端社区
       "/Web/Base/JavaScript/": [
         "",
         "Traversing",
@@ -75,7 +76,7 @@ module.exports = {
         "decorator",
         "Vue-typescript"
       ],
-      "/Web/Base/Http/": [""],
+      "/Web/Base/Performance/": [""],
       // 前端框架
       "/Web/Frame/Vue/": [""],
       "/Web/Frame/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
@@ -95,12 +96,8 @@ module.exports = {
       ],
       "/Web/Frame/Webpack/": [""],
 
-      // 前端规范
-      "/Web/Rules/": ["", "HTML", "CSS", "JAVASCRIPT"],
-
       // 成神之路
       "/Web/God/Github/": ["", "Upload"],
-      "/Web/God/Hook/": ["", "Custom-hook"],
       "/Web/God/Linux/": ["", "Database-install", "Firewall", "Crontab", "Mac-os"],
       "/Web/God/Nginx/": [
         "",
