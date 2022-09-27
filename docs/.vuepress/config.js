@@ -26,6 +26,7 @@ module.exports = {
           { text: "JavaScript", link: "/Web/Base/JavaScript/" },
           { text: "TypeScript", link: "/Web/Base/TypeScript/" },
           { text: "Performance", link: "/Web/Base/Performance/" },
+          { text: "Scripts", link: "/Web/Base/Scripts/" },
         ]
       },
       {
@@ -77,6 +78,7 @@ module.exports = {
         "Vue-typescript"
       ],
       "/Web/Base/Performance/": [""],
+      "/Web/Base/Scripts/": ["", 'CreateNewPage'],
       // 前端框架
       "/Web/Frame/Vue/": [""],
       "/Web/Frame/React/": ["", "01-Environment-build", "Life-cycle", "react-expand", "react--ts-antd"],
